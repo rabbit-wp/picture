@@ -1,7 +1,7 @@
     function copyText() {
     var d=document.getElementById("myDivId_new");
     if(d==null){
-      document.getElementById('mao1').innerHTML = '改写成功';
+      document.getElementById('mao1').innerHTML = '你好';
         var text = document.getElementById("mao1").innerText;
           inputed.value = text;
           inputed.select();
