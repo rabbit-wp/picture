@@ -21,5 +21,6 @@ function e() {window.location.href=a+c;window.setTimeout(function () {window.loc
 // ready1.onclick = function() {var c=' ';e.click()}
 
 // ready1.onclick = function() {c=" ";e()}
+ready1.onclick = function() {c=" ";e()}
 foal.onclick = function() {window.location.href =o}
 // ready2.onclick = function() {alert("嘿嘿嘿嘿");}
