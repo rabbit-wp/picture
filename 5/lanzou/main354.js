@@ -4,7 +4,7 @@
 // document.write('<div class="tet"><span class="teta">话</span><span class="teta tetb">说</span>长期更新免费资源！实用有趣得软件分享平台，记得收藏本网址哦</div>')
 // function writeHTMLasJS(){
 // document.write('<div class="tet"><span class="teta">话</span><span class="teta tetb">说</span>长期更新免费资源！实用有趣得软件分享平台，记得收藏本网址哦</div>')
-document.write('<div class="tbale"><div>文件名</div><div id="infos">')
+document.write('<div class="load2" id="load2" ><div class="loader2">努力加载中...</div></div><div class="md" id="info"><div class="tbale"><div>文件名</div><div id="infos">')
 document.write('<div id="ready1"><div class="mbx"><a target="_blank" class="mlink"><img src="css/apk.gif" align="absmiddle" border="0">一个木函.apk<div class="mmr"><span>4.1 M</span><span>8 天前</span></div></a></div></div>')
 document.write('<div id="ready2"><div class="mbx"><a target="_blank" class="mlink"><img src="css/apk.gif" align="absmiddle" border="0">文件管理.apk<div class="mmr"><span>8.0 M</span><span>8 天前</span></div></a></div></div>')
 document.write('<div id="ready3"><div class="mbx"><a target="_blank" class="mlink"><img src="css/apk.gif" align="absmiddle" border="0">星雨视频_追剧神器.apk<div class="mmr"><span>34.1 M</span><span>14 天前</span></div></a></div></div>')
