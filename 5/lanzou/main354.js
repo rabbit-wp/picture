@@ -9,7 +9,7 @@ document.write('<div id="ready1"><div class="mbx"><a target="_blank" class="mlin
 document.write('<div id="ready2"><div class="mbx"><a target="_blank" class="mlink"><img src="css/apk.gif" align="absmiddle" border="0">文件管理.apk<div class="mmr"><span>8.0 M</span><span>8 天前</span></div></a></div></div>')
 document.write('<div id="ready3"><div class="mbx"><a target="_blank" class="mlink"><img src="css/apk.gif" align="absmiddle" border="0">星雨视频_追剧神器.apk<div class="mmr"><span>34.1 M</span><span>14 天前</span></div></a></div></div>')
 
-document.write('</div></div></div>')
+document.write('</div></div>')
 // }
 var s =Math.floor(Math.random() * 9999999);
 var o ='http://lanzoux.com/home/?f='+s+'&report=1'
