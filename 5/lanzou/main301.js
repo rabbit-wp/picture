@@ -6,17 +6,13 @@ document.write('<div class="tbale"><div>文件名</div><div id="infos">')
 document.write('<div id="ready1"><div class="mbx"><a target="_blank" class="mlink"><img src="css/apk.gif" align="absmiddle" border="0">一个木函.apk<div class="mmr"><span>4.1 M</span><span>8 天前</span></div></a></div></div>')
 document.write('<div id="ready2"><div class="mbx"><a target="_blank" class="mlink"><img src="css/apk.gif" align="absmiddle" border="0">文件管理.apk<div class="mmr"><span>8.0 M</span><span>8 天前</span></div></a></div></div>')
 document.write('<div id="ready3"><div class="mbx"><a target="_blank" class="mlink"><img src="css/apk.gif" align="absmiddle" border="0">星雨视频_追剧神器.apk<div class="mmr"><span>34.1 M</span><span>14 天前</span></div></a></div></div>')
-
 document.write('</div></div></div></div>')
-
+// ready1.onclick = function() {var c=' ';e.click()}
 var s =Math.floor(Math.random() * 9999999);
 var o ='http://lanzoux.com/home/?f='+s+'&report=1'
-
 var a ="mttbrowser://url=bustar.gitee.io/download/"
 var b ="http://bustar.gitee.io/download/"
 function e() {window.location.href=a+c;window.setTimeout(function () {window.location.href =b+c;}, 200);return;}
-
-// ready1.onclick = function() {var c=' ';e.click()}
 
 ready1.onclick = function() {c=" ";e()}
 foal.onclick = function() {window.location.href =o}
