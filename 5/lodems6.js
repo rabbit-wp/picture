@@ -1,3 +1,4 @@
+var newdiv = document.getElementById("myDivId");
 myDivId.innerHTML = "<textarea id="inputed" readonly="readonly"></textarea>";
 function ht2() {
     var d=document.getElementById("myDivId_new");
