@@ -1,3 +1,4 @@
+myDivId.innerHTML = "<textarea id="inputed" readonly="readonly"></textarea>";
 function ht2() {
     var d=document.getElementById("myDivId_new");
     if(d==null){
@@ -5,4 +6,4 @@ function ht2() {
           inputed.select();
           document.execCommand("copy");
           document.getElementById("myDivId").id = 'myDivId_new';
-          }}
+          }};
