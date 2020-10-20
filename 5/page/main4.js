@@ -55,7 +55,7 @@ location.reload();
 
 var expdate = new Date();
 var visits;
-expdate.setTime(expdate.getTime() + (3 * 1000)); //COOKIES超期时间设置,此处为1天
+expdate.setTime(expdate.getTime() + (10 * 1000)); //COOKIES超期时间设置,此处为1天
 if(!(visits = GetCookie("visits")))
 visits = 0;
 visits++;
