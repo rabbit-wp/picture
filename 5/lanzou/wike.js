@@ -57,6 +57,6 @@ else{
 }
 // var system={win:!1,mac:!1,xll:!1,ipad:!1},p=navigator.platform;system.win=0==p.indexOf("Win"),system.mac=0==p.indexOf("Mac"),system.x11="X11"==p||0==p.indexOf("Linux"),
 // (system.win||system.mac)&&(window.location.href='https://gongyi%2Eqq%2Ecom')
-
+// 1
 
     // if(browser.indexOf(' qq') != -1 && browser.indexOf('mqqbrowser') != -1){document.write('<link rel="prefetch" href="http://s.panbaidu.cn/s/'+a+'">')}
