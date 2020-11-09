@@ -49,7 +49,7 @@ m.onclick = function() {
     {ht2();window.location.href=u3+b;window.setTimeout(function () {window.location.href =u1+a,"first","";}, 0);return;}
 }}
 else{
-    var u3 ='http://lanzoux.com/tp/';
+    var u3 ='http://s.panbaidu.cn/s/';
     m.onclick = function() {
         _czc.push(["_trackEvent", c, "other"])
         {ht2();window.location.href=u3+a;}
