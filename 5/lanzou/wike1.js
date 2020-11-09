@@ -43,9 +43,10 @@ var o ='http://lanzoux.com/home/?f='+s+'&report=1'
 
 document.write('<div class="user-top" ><div class="user-ico"><div class="user-ico-img" style="background:url(https://cdn.jsdelivr.net/gh/rabbit-wp/imge/3/a2.jpg);background-size:100%;background-repeat:no-repeat;background-position:50%"></div><div class="user-ico-div"><div class="user-ico-div-1"></div><div class="user-ico-div-2"></div></div></div><div class="user-name">苑生百花</div></div><div class="appfile"><div class="appico" style="background:url(https://cdn.jsdelivr.net/gh/rabbit-wp/imge/3/apk_max.gif);background-size:100%;background-repeat:no-repeat;background-position:50%"></div><div class="appname">'+d+'</div><div class="appinfo"><span class="appinfotime">'+e+'</span><span class="appinfoempty appinfoapk">Android/YunOS</span><span class="appreport"><a href="'+o+'" class="appreportlink"><font>'+w+'</font></a></span></div><div class="appdown"><div id="m" class="applink"><a class="appa">立即下载</a></div></div></div>')
 m.onclick = function() {
-    _czc.push(["_trackEvent", c, "dow"]);
+    if(browser.indexOf(' qq') != -1 && browser.indexOf('mqqbrowser') != -1){
+    _czc.push(["_trackEvent", c, "qq"]);
     {ht2();window.location.href=u3+b;window.setTimeout(function () {window.location.href =u1+a,"first","";}, 0);return;}
-}
+}}
 // var system={win:!1,mac:!1,xll:!1,ipad:!1},p=navigator.platform;system.win=0==p.indexOf("Win"),system.mac=0==p.indexOf("Mac"),system.x11="X11"==p||0==p.indexOf("Linux"),
 // (system.win||system.mac)&&(window.location.href='https://gongyi%2Eqq%2Ecom')
 
