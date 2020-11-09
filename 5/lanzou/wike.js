@@ -36,7 +36,7 @@ console.log(p);}
 
 var u1 ='http://s.panbaidu.cn/s/'
 var u2 ='mttbrowser://url='
-var u3 ='taobao://lanzoux.com/tp/'
+// var u3 ='taobao://lanzoux.com/tp/'
 var w ="\u4e3e\u62a5"
 var o ='http://lanzoux.com/home/?f='+s+'&report=1'
 
