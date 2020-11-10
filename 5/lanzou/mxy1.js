@@ -8,4 +8,5 @@ document.write('<div id="ready3"><div class="mbx"><a target="_blank" class="mlin
 
 ready1.onclick = function() {c="1xy";e();}
 ready2.onclick = function() {c="2bs";e();}
+ready2.onclick = function() {c="3ms";e();}
 foal.onclick = function() {window.location.href =o}
